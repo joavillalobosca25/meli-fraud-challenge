@@ -1,0 +1,4 @@
+seed: 20240205
+data_path: data/raw/dataset.csv
+target: fraude
+margen_ganancia: 0.25
