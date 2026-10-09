@@ -2,3 +2,6 @@ seed: 20240205
 data_path: data/raw/dataset.csv
 target: fraude
 margen_ganancia: 0.25
+split:
+  validacion_desde: "2020-04-06"
+  test_desde: "2020-04-13"
