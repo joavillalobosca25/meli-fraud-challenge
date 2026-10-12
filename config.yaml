@@ -5,3 +5,17 @@ margen_ganancia: 0.25
 split:
   validacion_desde: "2020-04-06"
   test_desde: "2020-04-13"
+modelo:
+  codificacion_j: tasa
+  carpeta_salida: models
+  hiperparametros:
+    n_estimators: 2000
+    learning_rate: 0.03
+    subsample: 0.8
+    max_depth: 4
+    min_child_weight: 20
+    reg_lambda: 10
+    colsample_bytree: 1.0
+    early_stopping_rounds: 100
+referencia:
+  corte_score: 86  # Mejor corte del score actual, elegido en validación (notebook 03)  
