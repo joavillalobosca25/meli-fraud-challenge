@@ -17,4 +17,5 @@ modelo:
     reg_lambda: 10
     colsample_bytree: 1.0
     early_stopping_rounds: 100
-  
+referencia:
+  corte_score: 86  # Mejor corte del score actual, elegido en validación (notebook 03)  
